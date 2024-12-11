@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sisig Recipe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">    
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Raleway', sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .imageoffood {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 100%; 
+            height: 580px; 
+            display: flex;
+            justify-content: center; 
+        }
+
+        .imageoffood img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+
+        .recipebox {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .recipeinformation {
+            font-size: 24px;
+            font-weight: bold;
+            color: #6c757d;
+        }
+        .ingredients, .steps {
+            margin-top: 20px;
+        }
+        .fm {
+            margin-top: 20px;
+            text-align: center;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tanay Tambay Treats</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="page1.html">Categories</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="imageoffood">
+                    <img src="https://panlasangpinoy.com/wp-content/uploads/2018/09/sisig-recipe.jpg" class="img-fluid" alt="Sisig">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="recipebox">
+                    <div class="recipeinformation">Sisig</div>
+                    <div class="ingredients">
+                        <h5>Ingredients:</h5>
+                        <ul>
+                            <li>1 lb pork belly, boiled and chopped</li>
+                            <li>1 onion, chopped</li>
+                            <li>3 cloves garlic, minced</li>
+                            <li>2-3 red chili peppers, chopped</li>
+                            <li>2 tbsp soy sauce</li>
+                            <li>1 tbsp vinegar</li>
+                            <li>1 tbsp calamansi juice</li>
+                            <li>Salt and pepper to taste</li>
+                            <li>1 egg (optional)</li>
+                            <li>1 tbsp oil for frying</li>
+                        </ul>
+                    </div>
+                    <div class="steps">
+                        <h5>Steps:</h5>
+                        <ol>
+                            <li>Boil the pork belly until tender, then chop it into small pieces.</li>
+                            <li>In a pan, heat oil and sauté garlic, onion, and chili peppers.</li>
+                            <li>Add the boiled pork and stir-fry until crispy.</li>
+                            <li>Season with soy sauce, vinegar, calamansi juice, salt, and pepper.</li>
+                            <li>Transfer to a sizzling plate and optionally top with a raw egg.</li>
+                            <li>Serve with rice and enjoy!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
